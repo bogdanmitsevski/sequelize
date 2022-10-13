@@ -10,8 +10,8 @@ module.exports = {
         type: DataTypes.INTEGER
       },
       uuid: {
-        type: DataTypes.UUID, 
-        deafultValue: DataTypes.UUIDV4
+        type: DataTypes.INTEGER, 
+        allowNull: false
       },
       name: {
         type: DataTypes.STRING,
